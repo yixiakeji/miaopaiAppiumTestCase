@@ -1,0 +1,16 @@
+--------------【我的面测试用例概要】--------------
+【用例1】test_feedback
+【意见反馈】
+1、测试了意见反馈的相关功能
+
+【用例2】test_mypage_topinfo_click
+【我的页面顶部信息栏】
+1、测试我的页面，顶部信息栏元素的点击
+
+【用例3】test_mypage_under_tipinfo_items_click
+【我的页面顶部信息栏下面的功能选项】
+1、点击完我的页面下，用户信息栏下的所有选项
+
+【用例4】test_message_items_all_click
+【点击完消息页面】
+1、点击完消息页面的所有item项

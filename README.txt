@@ -1,0 +1,11 @@
+该测试项目主要分为monkey测试和appium写的脚本测试
+
+monkey测试有一个单独的目录monkeyTest，用来存放monkey的测试脚本
+
+其余的目录都用于appium的测试项目
+MPTestCases目录存放appium的测试用例
+start.cmd用于启动appium测试
+startTest.py配置了要执行的测试用例
+app目录用于存放要测试的应用
+
+testTools存放了一些其他测试用的辅助脚本

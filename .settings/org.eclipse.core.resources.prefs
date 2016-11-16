@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//MPTestCases/common/CutScreenshot.py=utf-8
+encoding//MPTestCases/common/InitLogin.py=utf-8
+encoding//MPTestCases/common/Initialize.py=utf-8
+encoding//MPTestCases/detailPage/MPdetailPage.py=utf-8
+encoding//MPTestCases/hotPage/MPHotpageBanner.py=utf-8
+encoding//MPTestCases/login/MPlogin.py=utf-8
+encoding//MPTestCases/myPage/MPmypage.py=utf-8
+encoding//MPTestCases/myPage/MPmypageSetUserInfo.py=utf-8
+encoding//MPTestCases/settingPage/MPsetting.py=utf-8
+encoding//testTools/findOver5MinutesVideo.py=utf-8
+encoding/startTest.py=utf-8
