@@ -127,3 +127,4 @@ def suite(self):
 	suite.addTest(MPdetailPage('test_check_like'))
 	runner = unittest.TextTestRunner()  
 	runner.run(suite)
+	
