@@ -121,6 +121,7 @@ class MPdetailPage(unittest.TestCase):
 		except Exception,e:
 			print traceback.format_exc()
 			CutScreenshot.cutScreenShot(self,sys._getframe().f_code.co_name)
+			
 		
 
 def suite(self):
