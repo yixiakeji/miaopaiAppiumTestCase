@@ -15,6 +15,7 @@ import CutScreenshot
 import InitLogin
 import traceback
 
+
 import unittest
 from appium import webdriver
 from time import sleep
@@ -120,6 +121,7 @@ class MPdetailPage(unittest.TestCase):
 		except Exception,e:
 			print traceback.format_exc()
 			CutScreenshot.cutScreenShot(self,sys._getframe().f_code.co_name)
+			
 		
 
 def suite(self):
@@ -127,3 +129,4 @@ def suite(self):
 	suite.addTest(MPdetailPage('test_check_like'))
 	runner = unittest.TextTestRunner()  
 	runner.run(suite)
+	

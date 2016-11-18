@@ -13,3 +13,4 @@ rem 同时输出到命令行和文件
 rem powershell "python startTest.py 2>&1 | tee test.log" 
 
 pause
+
