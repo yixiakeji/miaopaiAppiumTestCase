@@ -3,7 +3,7 @@
 rm test.log
 if [ -d ./errorScreenShot ]
 then
-	
+	echo "errorScreenShot directory is exist !"
 else
 	mkdir errorScreenShot
 fi
