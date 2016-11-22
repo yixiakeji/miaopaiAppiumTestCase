@@ -14,7 +14,7 @@ sys.path.append(curDir + '\\MPTestCases\\settingPage')
 sys.path.append(curDir + '\\MPTestCases\\hotPage')
 sys.path.append(curDir + '\\MPTestCases\\myPage')
 sys.path.append(curDir + '\\MPTestCases\\detailPage')
-
+sys.path.append(curDir + '\\MPTestCases\\rewardPage')
 #mac下的写法
 sys.path.append(curDir + '/MPTestCases/login')
 sys.path.append(curDir + '/MPTestCases/shoot')
@@ -22,7 +22,7 @@ sys.path.append(curDir + '/MPTestCases/settingPage')
 sys.path.append(curDir + '/MPTestCases/hotPage')
 sys.path.append(curDir + '/MPTestCases/myPage')
 sys.path.append(curDir + '/MPTestCases/detailPage')
-
+sys.path.append(curDir + '/MPTestCases/rewardPage')
 
 import MPlogin
 import MPshoot
@@ -32,6 +32,7 @@ import MPHotpageBanner
 import MPmypage
 import MPdetailPage
 import MPmypageSetUserInfo
+import MPRewardPage
 
 
 MPlogin.suite("0")
@@ -42,3 +43,4 @@ MPHotpageBanner.suite("0")
 MPmypage.suite("0")
 MPdetailPage.suite("0")
 MPmypageSetUserInfo.suite("0")
+MPRewardPage.suite("0")
