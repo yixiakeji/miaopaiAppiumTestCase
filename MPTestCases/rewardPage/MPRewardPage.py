@@ -73,7 +73,7 @@ class MPRewardPage(unittest.TestCase):
             sleep(2)
             self.driver.keyevent('4')#点击返回
             sleep(2)
-            self.driver.swipe(500,1500,500,500)
+            self.driver.swipe(500,1000,500,200)
             sleep(2)
             self.driver.find_element_by_xpath('//android.widget.ListView[contains(@id,android:id/list)]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[contains(@id,com.yixia.videoeditor:id/user_layout)]/android.widget.TextView[contains(@id,com.yixia.videoeditor:id/desc)]').click()#点击描述进入悬赏详情
             sleep(2)
@@ -101,21 +101,28 @@ class MPRewardPage(unittest.TestCase):
             sleep(2)
             self.driver.find_element_by_id('com.yixia.videoeditor:id/titleRight').click()#点击分享
             sleep(2)
-            self.driver.swipe(900,1500,130,1500)
+            width=self.driver.get_window_size().get('width')
+            height=self.driver.get_window_size().get('height')
+            #print width
+            #print height
+            x_start=900*width/1080
+            x_end=130*width/1080
+            y=1500*height/1920
+            self.driver.swipe(x_start,y,x_end,y)
             sleep(2)
             self.driver.find_element_by_id('com.yixia.videoeditor:id/copy_url').click()#点击复制链接
             sleep(2)
             self.driver.swipe(500,300,500,1000)#下拉加载
             sleep(2)
-            self.driver.swipe(500,1500,500,500)
+            self.driver.swipe(500,1300*height/1920,500,500*height/1920)
             sleep(2)
             self.driver.find_element_by_xpath('//android.widget.HorizontalScrollView[contains(@id,com.yixia.videoeditor:id/tabs)]/android.widget.LinearLayout[1]').click()#切换全部
             sleep(2)
-            self.driver.swipe(500,1200,500,500)
+            self.driver.swipe(500,1300*height/1920,500,500*height/1920)
             sleep(2)
-            self.driver.swipe(500,1200,500,500)
+            self.driver.swipe(500,1300*height/1920,500,500*height/1920)
             sleep(2)
-            self.driver.swipe(500,1200,500,500)
+            self.driver.swipe(500,1300*height/1920,500,500*height/1920)
             sleep(2)
             self.driver.find_element_by_id('com.yixia.videoeditor:id/new_reward').click()#点击发布新悬赏
             sleep(2)

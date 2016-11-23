@@ -88,15 +88,15 @@ class MPlogin(unittest.TestCase):
 			sleep(2)
 			self.driver.find_element_by_id('com.yixia.videoeditor:id/login_button').click()	#登录
 			sleep(2)
-			self.driver.swipe(600,1200,600,500)
+			self.driver.swipe(600,1000,600,200)
 			sleep(2)
-			self.driver.swipe(600,1200,600,500)
-			sleep(2)
+			self.driver.swipe(600,1000,600,200)
+			sleep(5)
 			self.driver.find_element_by_id('com.yixia.videoeditor:id/setting_layout').click()#点击设置
 			sleep(2)
-			self.driver.swipe(600,1200,600,500)
+			self.driver.swipe(600,1000,600,200)
 			sleep(2)
-			self.driver.swipe(600,1200,600,500)
+			self.driver.swipe(600,1000,600,200)
 			sleep(2)
 			self.driver.find_element_by_id('com.yixia.videoeditor:id/logout_button').click()#点击退出登录
 			sleep(2)
